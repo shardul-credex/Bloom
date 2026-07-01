@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-green-deep: #205038;
+  --color-green-deep-2: #1a4230;
+  --color-lime: #a6d850;
+  --color-cream: #f2ece2;
+  --color-cream-muted: #e8e0d2;
+  --color-beige-warm: #ede6d8;
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-green-deep);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
